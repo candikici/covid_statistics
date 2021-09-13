@@ -2,7 +2,7 @@
     package="com.example.covid_statistics">
 
     <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES"/>
-
+<uses-permission android:name="android.permission.INTERNET"/>
 <queries>
     <intent>
         <action android:name="android.intent.action.VIEW" />
